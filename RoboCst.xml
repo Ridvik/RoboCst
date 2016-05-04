@@ -35,10 +35,17 @@
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="4">
+                                  <block type="movement_forward" id="32">
                                     <next>
-                                      <block type="comment_comment" id="29">
-                                        <field name="TEXT">this would just get me to the middle of the room</field>
+                                      <block type="robot_delay" id="30" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="31">
+                                            <field name="NUM">500</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="4"></block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
