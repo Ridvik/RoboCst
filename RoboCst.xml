@@ -1,14 +1,59 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="1" x="81" y="65">
+  <block type="movement_forward" id="14" x="90" y="95">
     <next>
       <block type="robot_delay" id="2" inline="true">
         <value name="DELAY">
           <block type="math_number" id="3">
-            <field name="NUM">200</field>
+            <field name="NUM">5000</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="4"></block>
+          <block type="movement_forward" id="23">
+            <next>
+              <block type="robot_delay" id="15" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="16">
+                    <field name="NUM">200</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_forward" id="25">
+                    <next>
+                      <block type="robot_delay" id="17" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="18">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_forward" id="26">
+                            <next>
+                              <block type="robot_delay" id="19" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="20">
+                                    <field name="NUM">200</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="movement_stop" id="4">
+                                    <next>
+                                      <block type="comment_comment" id="29">
+                                        <field name="TEXT">this would just get me to the middle of the room</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
