@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="14" x="90" y="95">
+  <block type="movement_forward" id="1" x="90" y="95">
     <next>
       <block type="robot_delay" id="2" inline="true">
         <value name="DELAY">
@@ -8,34 +8,34 @@
           </block>
         </value>
         <next>
-          <block type="movement_forward" id="23">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="robot_delay" id="15" inline="true">
+              <block type="robot_delay" id="5" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="16">
+                  <block type="math_number" id="6">
                     <field name="NUM">5000</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="25">
+                  <block type="movement_forward" id="7">
                     <next>
-                      <block type="robot_delay" id="17" inline="true">
+                      <block type="robot_delay" id="8" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="18">
+                          <block type="math_number" id="9">
                             <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_forward" id="26">
+                          <block type="movement_forward" id="10">
                             <next>
-                              <block type="robot_delay" id="19" inline="true">
+                              <block type="robot_delay" id="11" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="20">
+                                  <block type="math_number" id="12">
                                     <field name="NUM">5000</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="4"></block>
+                                  <block type="movement_stop" id="13"></block>
                                 </next>
                               </block>
                             </next>
