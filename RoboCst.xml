@@ -36,7 +36,7 @@
                                   <block type="controls_repeat" id="363" inline="true">
                                     <value name="TIMES">
                                       <block type="math_number" id="364">
-                                        <field name="NUM">16295</field>
+                                        <field name="NUM">18000</field>
                                       </block>
                                     </value>
                                     <statement name="DO">
